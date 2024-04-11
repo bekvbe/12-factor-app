@@ -1,0 +1,8 @@
+
+name: my-ranch-app
+
+processes:
+  web:
+    command: node server.js
+    count: 2
+    memory: 256
